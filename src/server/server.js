@@ -26,13 +26,9 @@ app.get('/', function(req, res) {
 })
 
 // Setup  the Server
-const port = 4000;
-const server = app.listen(port, listening);
-// Callback to debug
-function listening() {
-    console.log('server is Loading.......');
-    console.log(`running on localhost: ${port}`);
-}
+app.listen(4000, () => {
+  console.log('Server Running on port 4000..........');
+});
 
 
 app.post('/getCoordinates', makeRequest.getCoordinates);
