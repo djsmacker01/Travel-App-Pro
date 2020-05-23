@@ -73,7 +73,7 @@ export const dataFromApi = async function(trip) {
 
 
             // Get country information about destination
-            let details = await fetch("http://localhost:3000/getCountryDetail", {
+            let details = await fetch("http://localhost:4000/getCountryDetail", {
                 method: 'POST',
                 credentials: 'same-origin',
                 mode: 'cors',
