@@ -38,11 +38,15 @@ npm run test.
 
 ## API USED
 
-1. weatherbit [https://www.weatherbit.io/api],: This is used to get weather details using the longitude and latitude gotten from Geonames API.
+1. weatherbit [https://www.weatherbit.io/api]: This is used to get weather details using the longitude and latitude gotten from Geonames API.
 
 2. Geonames [https://www.geonames.org/]: This was used to get the longitude, latitude, country code and country name.
-   3.pixabay [https://pixabay.com/]
-   4. [REST Countries](https://restcountries.eu/) - This is used to get information about the country.
+
+ 3.pixabay [https://pixabay.com/] : This is used to get an image of the destination city. And in a case where the city is an obscure      place, an image of the country is gotten instead.
+ 
+ 4. [REST Countries](https://restcountries.eu/) - This is used to get information about the country.
+ 
+ 
    
    ## PERFORMANCE
 - This app has a form that takes the desired trip location, departure date and return date of a user.
